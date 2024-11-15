@@ -1,0 +1,10 @@
+argparse
+Pillow
+torch
+opencv-python-headless
+numpy
+tensorflow
+Flask
+Werkzeug
+requests
+ultralytics
