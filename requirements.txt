@@ -8,3 +8,4 @@ Flask
 Werkzeug
 requests
 ultralytics
+gunicorn
