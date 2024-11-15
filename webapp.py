@@ -257,4 +257,4 @@ if __name__ == "__main__":
     parser.add_argument("--port", default=5000, type=int, help="port number")
     args = parser.parse_args()
     model = YOLO('yolov9c.pt')
-    app.run(host="0.0.0.0", port=args.port) 
+    app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
